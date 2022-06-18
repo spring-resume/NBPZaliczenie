@@ -22,7 +22,7 @@ public class NbpController {
         this.nbpService = nbpService;
     }
 
-    @ApiOperation(value = "Get gold pirce", notes = "calculate gold by provided data")
+    @ApiOperation(value = "Get gold pirce", notes = "calculate gold average price by provided data")
     @ApiResponses(value ={
             @ApiResponse(code = 200, message = "Successfully query execution"),
             @ApiResponse(code = 404, message ="no data for the query" ),
