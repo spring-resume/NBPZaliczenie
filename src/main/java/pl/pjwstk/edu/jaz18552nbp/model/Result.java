@@ -4,7 +4,6 @@ import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Builder;
 
-
 import javax.persistence.*;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
