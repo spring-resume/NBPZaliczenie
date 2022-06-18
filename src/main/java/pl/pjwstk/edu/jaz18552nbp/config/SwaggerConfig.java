@@ -17,7 +17,7 @@ import java.util.Collections;
 public class SwaggerConfig {
 
     @Bean
-    public Docket atividadeApi() {
+    public Docket api() {
         return new Docket(DocumentationType.SWAGGER_2)
                 .select()
                 .apis(RequestHandlerSelectors.basePackage("pl.pjwstk.edu.jaz18552nbp"))

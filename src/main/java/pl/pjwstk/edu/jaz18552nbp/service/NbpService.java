@@ -14,9 +14,7 @@ public class NbpService {
         this.nbpClient = nbpClient;
         this.nbpRepository = nbpRepository;
     }
-    public Result getGoldByProvidedData(
-            String startDate,
-            String enDate) {
+    public Result getGoldByProvidedData(String startDate, String enDate) {
         return nbpRepository.save(nbpClient.getResult(startDate,enDate));
     }
 

@@ -32,7 +32,13 @@ public class Result {
     public Result() {
     }
 
-    public Result(Long id, Category category, LocalDate startDate, LocalDate endDate, double price, LocalDateTime executeQuestion) {
+    public Result(
+            Long id,
+            Category category,
+            LocalDate startDate,
+            LocalDate endDate,
+            double price,
+            LocalDateTime executeQuestion) {
         this.id = id;
         this.category = Category.GOLD;
         this.startDate = startDate;
